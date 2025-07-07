@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100vh;
+    gap: 70px;
+}
+.logo p{
+    padding: 10px;
+    background-color: lightblue;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.generalDivTop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin: 8px;
+}
+.searchIcon{
+    width: 30px;
+    height: 30px;
+    
+}
+.search{
+    display: flex;
+    flex-direction: row;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.tabsHover p{
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.tabsHover p:hover{
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+.tabsHover{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.searchInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+.footer p{
+     padding: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.footer{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}

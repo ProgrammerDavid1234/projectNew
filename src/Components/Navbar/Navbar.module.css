@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.iconImage{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    display: flex;
+    gap: 700px;
+    flex-direction: row;
+    background-color: whitesmoke;
+    height: 30px;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+.navbarTexts{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+}
