@@ -6,17 +6,15 @@ const Sidebar = () => {
         <div>
             <div className={styles.container}>
                 <div className={styles.generalDivTop}>
-                    <div className={styles.logo}>
+                    <div className={`${styles.logo} ${styles.alwaysBlack}`}>
                         <p>CL</p>
                     </div>
-                    <div className={styles.text}>
+                    <div className={`${styles.text} ${styles.alwaysBlack}`}>
                         <p className={styles.name}>Clinton</p>
-                        <p className={styles.regNum}>
-                            Reg No: 123456789
-                        </p>
+                        <p className={styles.regNum}>Reg No: 123456789</p>
                     </div>
-
                 </div>
+
 
                 {/* new div */}
                 <div className={styles.tabs}>
